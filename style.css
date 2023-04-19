@@ -1,0 +1,117 @@
+body{
+    background-color: #660066;
+}
+.active{
+    color:rgb(243, 243, 247);
+}
+/* Navbar Section */
+.navbar-brand{
+    font-size:24px;
+}
+.nav-link{
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color:rgb(225, 225, 247);
+}
+nav{
+    background-color: #660066;
+}
+/* Navbar Section */
+
+/* Header Section */
+#header{
+    background:url('./img/Background2.jpg') no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+#header p{
+    color:#660066;
+}
+#header .col{
+    background-color:rgba(255,255,255,0.3);
+    transform:skew(-15deg);
+    border-radius: 10px;
+    box-shadow: 0 4px 38px 0 rgba(0, 0, 0, 0.2), 0 6px 38px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+#header .col:hover{
+    scale:1.1;
+}
+#header h1{
+    margin-top:20px;
+    font-size:3.5rem;
+    font-weight:700;
+    transform:skew(15deg);
+}
+#header .btn{
+    transform:skew(15deg);
+    margin-bottom: 28px;
+}
+/* Header Section */
+
+/* Features Section */
+#features{
+    padding:30px 0px;
+    background: #660066;
+}
+#features h5{
+    color:#660066;
+}
+#features img{
+    height : 250px;
+    width:270px;
+    object-fit: cover;
+}
+#features .image{
+    float:right;
+}
+#features h2:hover{
+    color:#660066;
+    cursor:pointer;
+}
+#features .col-lg-5.col-sm-12{
+    border: 2px solid #262626;
+    border-radius: 10px;
+    padding: 10px;
+    background: #b6a9ad;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 18px 0 rgba(0, 0, 0, 0.19);
+    transition:background 5s transfrom 5s;
+}
+#features .col-lg-5.col-sm-12:hover{
+    background:#f5d5d5;
+    transform: translateY(-10px);
+}
+/* Features Section */
+
+/* Footer Section */
+#footer .copyright{
+    background-color: #660066;
+    color:white;
+}
+#footer .heart{
+    color:red;
+}
+#footer .name{
+    color:rgb(7, 159, 165);
+    font-weight: 600;
+}
+/* Footer Section */
+
+/* About Section */
+#about .row{
+    background-color:rgba(255,255,255,0.3);
+    color:white;
+}
+#about .container{
+    border-radius: 5px;
+    box-shadow: 0 4px 38px 0 rgba(0, 0, 0, 0.2), 0 6px 38px 0 rgba(0, 0, 0, 0.19); 
+}
+/* About Section */
+
+/* Contact Section */
+#contact {
+    color:white;
+}
+
+/* Contact Section */
