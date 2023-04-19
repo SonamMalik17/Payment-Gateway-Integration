@@ -47,9 +47,14 @@
     <div class="container my-4">
         <h2 class="text-center mb-3"><strong>Contact Us</strong></h2>
         <form action="https://formsubmit.co/52c049c9dcb4fed2a0153abeab8aa6d0" method="POST">
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display:none;">
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+            
             <div class="mb-3">
                 <label for="exampleFormControlInput1">Email Address</label>
-                <input type="email" name="Email Address" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" name="Email&nbsp;Address" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1">Tell us about yourself</label>
