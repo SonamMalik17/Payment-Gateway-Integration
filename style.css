@@ -1,9 +1,12 @@
+/* General Styles */
 body{
     background-color: #660066;
 }
 .active{
     color:rgb(243, 243, 247);
 }
+/* General Styles */
+
 /* Navbar Section */
 .navbar-brand{
     font-size:24px;
@@ -16,6 +19,10 @@ body{
 }
 nav{
     background-color: #660066;
+}
+nav a{
+    text-decoration: none;
+    color:white;
 }
 /* Navbar Section */
 
@@ -56,31 +63,17 @@ nav{
     background: #660066;
 }
 #features h5{
-    color:#660066;
+    color:black;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 800;
+    background-color: rgba(255,255,255,0.8);
 }
-#features img{
-    height : 250px;
-    width:270px;
-    object-fit: cover;
-}
-#features .image{
-    float:right;
-}
-#features h2:hover{
-    color:#660066;
-    cursor:pointer;
-}
-#features .col-lg-5.col-sm-12{
-    border: 2px solid #262626;
-    border-radius: 10px;
-    padding: 10px;
-    background: #b6a9ad;
-    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 18px 0 rgba(0, 0, 0, 0.19);
-    transition:background 5s transfrom 5s;
-}
-#features .col-lg-5.col-sm-12:hover{
-    background:#f5d5d5;
-    transform: translateY(-10px);
+#features p{
+    color:black;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: rgba(255,255,255,0.8);
 }
 /* Features Section */
 
@@ -113,5 +106,4 @@ nav{
 #contact {
     color:white;
 }
-
 /* Contact Section */
